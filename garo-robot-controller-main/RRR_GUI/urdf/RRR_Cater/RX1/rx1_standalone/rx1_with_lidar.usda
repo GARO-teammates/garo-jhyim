@@ -1,0 +1,540 @@
+#usda 1.0
+(
+    defaultPrim = "rx1"
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "rx1"
+{
+    def Xform "world"
+    {
+    }
+
+    def Xform "base_link"
+    {
+    }
+
+    def Xform "torso_pitch_link"
+    {
+    }
+
+    def Xform "torso_roll_link"
+    {
+    }
+
+    def Xform "torso_link"
+    {
+        def Mesh "visual" (
+            prepend references = @./meshes/torso_link.stl@
+        )
+        {
+        }
+    }
+
+    def Xform "head_base_link"
+    {
+        def Mesh "visual" (
+            prepend references = @./meshes/head/head_base_link.stl@
+        )
+        {
+        }
+    }
+
+    def Xform "neck_yaw_link"
+    {
+        def Mesh "visual" (
+            prepend references = @./meshes/head/neck_yaw_link.stl@
+        )
+        {
+        }
+    }
+
+    def Xform "neck_pitch_link"
+    {
+        def Mesh "visual" (
+            prepend references = @./meshes/head/neck_pitch_link.stl@
+        )
+        {
+        }
+    }
+
+    def Xform "head_depth_cam_mount_link"
+    {
+        def Mesh "visual" (
+            prepend references = @./meshes/head/head_depth_cam_mount_link.stl@
+        )
+        {
+        }
+    }
+
+    def Xform "camera_link"
+    {
+    }
+
+    def Xform "right_ear_link"
+    {
+        def Mesh "visual" (
+            prepend references = @./meshes/head/right_ear_link.stl@
+        )
+        {
+        }
+    }
+
+    def Xform "left_ear_link"
+    {
+        def Mesh "visual" (
+            prepend references = @./meshes/head/left_ear_link.stl@
+        )
+        {
+        }
+    }
+
+    def Xform "right_shoul_base_link"
+    {
+    }
+
+    def Xform "right_shoul_link"
+    {
+    }
+
+    def Xform "right_shoul_rot_link"
+    {
+    }
+
+    def Xform "right_upper_arm_link"
+    {
+        def Mesh "visual" (
+            prepend references = @./meshes/right_arm/right_upper_arm_link.stl@
+        )
+        {
+        }
+    }
+
+    def Xform "right_armrot_link"
+    {
+        def Mesh "visual" (
+            prepend references = @./meshes/right_arm/right_elbow_link.stl@
+        )
+        {
+        }
+    }
+
+    def Xform "right_elbow_link"
+    {
+    }
+
+    def Xform "right_forearm_link"
+    {
+    }
+
+    def Xform "right_forearmrot_link"
+    {
+        def Mesh "visual" (
+            prepend references = @./meshes/right_arm/right_forearm_link.stl@
+        )
+        {
+        }
+    }
+
+    def Xform "right_forearm_pitch_link"
+    {
+    }
+
+    def Xform "right_forearm_roll_link"
+    {
+    }
+
+    def Xform "right_wrist_link"
+    {
+    }
+
+    def Xform "dummy_link_18"
+    {
+    }
+
+    def Xform "dummy_link_19"
+    {
+    }
+
+    def Xform "dummy_link_20"
+    {
+    }
+
+    def Xform "dummy_link_21"
+    {
+    }
+
+    def Xform "dummy_link_22"
+    {
+    }
+
+    def Xform "dummy_link_23"
+    {
+    }
+
+    def Xform "dummy_link_24"
+    {
+    }
+
+    def Xform "dummy_link_25"
+    {
+    }
+
+    def Xform "dummy_link_26"
+    {
+    }
+
+    def Xform "dummy_link_27"
+    {
+    }
+
+    def Xform "dummy_link_28"
+    {
+    }
+
+    def Xform "dummy_link_29"
+    {
+    }
+
+    def Xform "dummy_link_30"
+    {
+    }
+
+    def Xform "dummy_link_30a"
+    {
+    }
+
+    def Xform "dummy_link_30b"
+    {
+    }
+
+    def Xform "dummy_link_30c"
+    {
+    }
+
+    def Xform "dummy_link_30d"
+    {
+    }
+
+    def Xform "dummy_link_30e"
+    {
+    }
+
+    def Xform "dummy_link_30f"
+    {
+    }
+
+    def Xform "dummy_link_30g"
+    {
+    }
+
+    def Xform "dummy_link_30h"
+    {
+    }
+
+    def Xform "dummy_link_30i"
+    {
+    }
+
+    def Xform "dummy_link_30j"
+    {
+    }
+
+    def Xform "right_gripper_base_link"
+    {
+        def Mesh "visual" (
+            prepend references = @./meshes/gripper/parts/gripper_base.obj@
+        )
+        {
+        }
+    }
+
+    def Xform "right_gripper_tip1_link"
+    {
+        def Mesh "visual" (
+            prepend references = @./meshes/gripper/parts/gripper_mesh.obj@
+        )
+        {
+        }
+    }
+
+    def Xform "right_gripper_tip2_link"
+    {
+        def Mesh "visual" (
+            prepend references = @./meshes/gripper/parts/gripper_mesh.obj@
+        )
+        {
+        }
+    }
+
+    def Xform "right_gripper_center_link"
+    {
+    }
+
+    def Xform "left_shoul_base_link"
+    {
+    }
+
+    def Xform "left_shoul_link"
+    {
+    }
+
+    def Xform "left_shoul_rot_link"
+    {
+    }
+
+    def Xform "left_upper_arm_link"
+    {
+        def Mesh "visual" (
+            prepend references = @./meshes/left_arm/left_upper_arm_link.stl@
+        )
+        {
+        }
+    }
+
+    def Xform "left_armrot_link"
+    {
+        def Mesh "visual" (
+            prepend references = @./meshes/left_arm/left_elbow_link.stl@
+        )
+        {
+        }
+    }
+
+    def Xform "left_elbow_link"
+    {
+    }
+
+    def Xform "left_forearm_link"
+    {
+    }
+
+    def Xform "left_forearmrot_link"
+    {
+        def Mesh "visual" (
+            prepend references = @./meshes/left_arm/left_forearm_link.stl@
+        )
+        {
+        }
+    }
+
+    def Xform "left_forearm_pitch_link"
+    {
+    }
+
+    def Xform "left_forearm_roll_link"
+    {
+    }
+
+    def Xform "left_wrist_link"
+    {
+    }
+
+    def Xform "dummy_link_40"
+    {
+    }
+
+    def Xform "left_gripper_base_link"
+    {
+        def Mesh "visual" (
+            prepend references = @./meshes/gripper/parts/gripper_base.obj@
+        )
+        {
+        }
+    }
+
+    def Xform "left_gripper_tip1_link"
+    {
+        def Mesh "visual" (
+            prepend references = @./meshes/gripper/parts/gripper_mesh.obj@
+        )
+        {
+        }
+    }
+
+    def Xform "left_gripper_tip2_link"
+    {
+        def Mesh "visual" (
+            prepend references = @./meshes/gripper/parts/gripper_mesh.obj@
+        )
+        {
+        }
+    }
+
+    def Xform "left_gripper_center_link"
+    {
+    }
+
+    def Xform "lift_platform_link"
+    {
+        def Mesh "visual" (
+            prepend references = @./meshes/lift1.obj@
+        )
+        {
+        }
+    }
+
+    def Xform "nema42_link"
+    {
+        def Mesh "visual" (
+            prepend references = @./meshes/NEMA42.obj@
+        )
+        {
+        }
+    }
+
+    def Xform "xp1000_link"
+    {
+        def Mesh "visual" (
+            prepend references = @./meshes/XP1000.obj@
+        )
+        {
+        }
+    }
+
+    def Xform "cater_platform_link"
+    {
+    }
+
+    def Xform "ballast_front_weight"
+    {
+    }
+
+    def Xform "cater_frame_link"
+    {
+        def Mesh "visual" (
+            prepend references = @./meshes/Cater_frame_matched.obj@
+        )
+        {
+        }
+    }
+
+    def Xform "cater_frame_upper_mass"
+    {
+    }
+
+    def Xform "cater_frame_lower_mass"
+    {
+    }
+
+    def Xform "center_ballast_weight"
+    {
+    }
+
+    def Xform "caster_front_left_pivot_link"
+    {
+        def Mesh "visual" (
+            prepend references = @./meshes/pivot.obj@
+        )
+        {
+        }
+    }
+
+    def Xform "caster_front_left_mount_link"
+    {
+    }
+
+    def Xform "caster_front_left_wheel_link"
+    {
+        def Mesh "visual" (
+            prepend references = @./meshes/caster_wheel.obj@
+        )
+        {
+        }
+    }
+
+    def Xform "caster_front_right_pivot_link"
+    {
+        def Mesh "visual" (
+            prepend references = @./meshes/pivot.obj@
+        )
+        {
+        }
+    }
+
+    def Xform "caster_front_right_mount_link"
+    {
+    }
+
+    def Xform "caster_front_right_wheel_link"
+    {
+        def Mesh "visual" (
+            prepend references = @./meshes/caster_wheel.obj@
+        )
+        {
+        }
+    }
+
+    def Xform "caster_rear_left_pivot_link"
+    {
+        def Mesh "visual" (
+            prepend references = @./meshes/pivot.obj@
+        )
+        {
+        }
+    }
+
+    def Xform "caster_rear_left_mount_link"
+    {
+    }
+
+    def Xform "caster_rear_left_wheel_link"
+    {
+        def Mesh "visual" (
+            prepend references = @./meshes/caster_wheel.obj@
+        )
+        {
+        }
+    }
+
+    def Xform "caster_rear_right_pivot_link"
+    {
+        def Mesh "visual" (
+            prepend references = @./meshes/pivot.obj@
+        )
+        {
+        }
+    }
+
+    def Xform "caster_rear_right_mount_link"
+    {
+    }
+
+    def Xform "caster_rear_right_wheel_link"
+    {
+        def Mesh "visual" (
+            prepend references = @./meshes/caster_wheel.obj@
+        )
+        {
+        }
+    }
+
+    def Xform "lidar_link"
+    {
+        def Mesh "visual" (
+            prepend references = @./meshes/lidar.obj@
+        )
+        {
+        }
+    }
+
+    def Xform "cater_left_wheel_link"
+    {
+        def Mesh "visual" (
+            prepend references = @./meshes/carter_wheel.obj@
+        )
+        {
+        }
+    }
+
+    def Xform "cater_right_wheel_link"
+    {
+        def Mesh "visual" (
+            prepend references = @./meshes/carter_wheel.obj@
+        )
+        {
+        }
+    }
+}
+

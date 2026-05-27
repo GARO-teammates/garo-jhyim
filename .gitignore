@@ -1,0 +1,16 @@
+.venv/
+checkpoints/
+wandb/
+logs/
+__pycache__/
+*.pyc
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.msgpack
+*.bin
+*.db
+*.sqlite3
+.idea/
+.vscode/

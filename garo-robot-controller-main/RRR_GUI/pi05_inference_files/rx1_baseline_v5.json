@@ -1,0 +1,116 @@
+{
+  "servos": {
+    "11": {
+      "position": 4000,
+      "angle_degrees": 117.19,
+      "status": "OK",
+      "sim_inverted": false
+    },
+    "12": {
+      "position": 1400,
+      "angle_degrees": 41.03,
+      "status": "OK",
+      "sim_inverted": false
+    },
+    "13": {
+      "position": 3000,
+      "angle_degrees": 87.89,
+      "status": "OK",
+      "sim_inverted": false
+    },
+    "14": {
+      "position": 505,
+      "angle_degrees": 14.8,
+      "status": "OK",
+      "sim_inverted": false
+    },
+    "15": {
+      "position": 2825,
+      "angle_degrees": 248.35,
+      "status": "OK",
+      "sim_inverted": false
+    },
+    "16": {
+      "position": 1800,
+      "angle_degrees": 52.75,
+      "status": "OK",
+      "sim_inverted": false
+    },
+    "17": {
+      "position": 2680,
+      "angle_degrees": 78.53,
+      "status": "OK",
+      "sim_inverted": false
+    },
+    "41": {
+      "position": 0,
+      "angle_degrees": 0.0,
+      "status": "OK",
+      "sim_inverted": false
+    },
+    "32": {
+      "position": 0,
+      "angle_degrees": 0.0,
+      "status": "OK",
+      "sim_inverted": false
+    },
+    "21": {
+      "position": 95,
+      "angle_degrees": 2.78,
+      "status": "OK",
+      "sim_inverted": false
+    },
+    "22": {
+      "position": 2800,
+      "angle_degrees": 82.05,
+      "status": "OK",
+      "sim_inverted": false
+    },
+    "23": {
+      "position": 1095,
+      "angle_degrees": 32.09,
+      "status": "OK",
+      "sim_inverted": false
+    },
+    "24": {
+      "position": 3600,
+      "angle_degrees": 105.49,
+      "status": "OK",
+      "sim_inverted": false
+    },
+    "25": {
+      "position": 2225,
+      "angle_degrees": 195.62,
+      "status": "OK",
+      "sim_inverted": false
+    },
+    "26": {
+      "position": 2350,
+      "angle_degrees": 68.86,
+      "status": "OK",
+      "sim_inverted": false
+    },
+    "27": {
+      "position": 1839,
+      "angle_degrees": 53.89,
+      "status": "OK",
+      "sim_inverted": false
+    },
+    "31": {
+      "position": 0,
+      "angle_degrees": 0.0,
+      "status": "OK",
+      "sim_inverted": false
+    },
+    "28": {
+      "position": 0,
+      "angle_degrees": 0.0,
+      "status": "OK",
+      "sim_inverted": false
+    }
+  },
+  "metadata": {
+    "timestamp": "2026-01-19 17:30:00",
+    "description": "GUI에서 설정한 새로운 기본 자세"
+  }
+}
